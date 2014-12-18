@@ -82,7 +82,7 @@ section.top-bar-section {
     font-size:1em;
     border-right:solid;
     border-width:1px;
-    min-width:7em;
+    min-width:6.5em;
 }
 .top-bar-section ul li:first-of-type {
     border-left:solid;
