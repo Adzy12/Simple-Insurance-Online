@@ -7,13 +7,16 @@
         <link rel="stylesheet" href="Content/css/foundation.css" />
         <link rel="stylesheet" href="Content/css/customStyles.css" />
         <link rel="stylesheet" href="slick/slick.css" />
-        
+        <link rel="stylesheet" href="Content/css/owl.carousel.css">
+        <link rel="stylesheet" href="Content/css/owl.theme.css">
+        <!-- WAY TOO MANY SCRIPTS IN HERE-->
         <script type="text/javascript" src="Content/javascript/modernizr.js"></script>
         <script type="text/javascript" src="Content/javascript/jquery.js"></script>
         <script type="text/javascript" src="Content/javascript/fastclick.js"></script>
-        <script type="text/javascript" src="Content/javascript/jquery.backstretch.min.js"></script>
         <script type="text/javascript" src="Content/javascript/foundation.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="Content/javascript/owl.carousel.js"></script>
+        
     </head>
     <body>
         <header>
@@ -132,71 +135,14 @@
                 </div>
             </div>
             
-        
-        <div class="carouselRow">
-    <div class="large-12 medium-12 small-12 carousel">
-        <div class="myContent">
-            <div id="sldFirst" class="sldImage">
-
-                <div class="large-7 medium-12 small-12 columns" style="padding:2em 5em 3em 16em;">
-                    <h1>Car Insurance</h1>
-                    <h2>Compare from over 125 Insurance Brands</h2>
-                    <p>New driver looking for cheap insurance?</p>
-                    <p> 
-                        Looking to lower your car insurance?
-                    <br />
-                        Take a Look at our list of dedicated telematic insurers
-                    </p>
-                    <a href="">Find out more ></a>
-                </div>
-                <div class="large-5 medium-12 small-12 columns">
-                    <div class="row" style="text-align:right;">
-                        <div class="recentQuote">
-                            <h3>Your recent car insurance quote</h3>
-                            <p>
-                                Best Price : £xxx.xx <br />
-                                With : xxxxxxxxxx <br />
-                                Quote Created : xx/xx/xxxx
-                            </p>
-                            <br />
-                            <br />
-                            <a href="#" class="btn nav" id="btnGetPrevQuote">Get previous quote</a>
-                        </div>
-                    </div>
-                    <div class="row" style="text-align:right;">
-                        <div style=" text-align:center; width:350px;">
-                            <h1>OR</h1>
-                        </div>
-                    </div>
-                    <br />
-                    <br />
-                    <div class="row">
-                        <div style="text-align:center; width:350px;">
-                            <a href="#" class="btn nav" id="btnGetNewQuote">Get a Quote</a>
-                        </div>
-                    </div>
-                        
-                        
-                </div>
-            </div>
-
-                <div id="sldSecond" class="sldImage">
-                    <div class="large-6 medium-8 small-12 columns" style="padding:2em 5em 3em 16em;">
-                        <h1>Home Insurance</h1>
-                        <h2 >Compare from over 74 Insurance Brands</h2>
-                        <p>Looking to renew your home insurance?</p>
-                        <p > 
-                            We will check over 70 providers for you to get the cheapest quote!
-                        <br />
-                            Also buy contents insurance and save!
-                        </p>
-                        <a href="">Find out more ></a>
-                    </div>
-                </div>
-
-        </div>
-    </div>
+        <!-- CAROUSEL -->
+        <div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item"><img src="Images/custom/Car.jpg" alt=""></div>
+  <div class="item"><img src="Images/custom/home.jpg" alt=""></div>
+ 
 </div>
+        <!-- /CAROUSEL -->
 
 <div class="large-12 mainbody">
     <div class="row">
@@ -209,13 +155,13 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante nisl, gravida vitae turpis sit amet, porttitor lobortis erat.
                         </p>
                         <br />
-                        <p class="boldHome">Find out more ></p>
+                        <a href="">Find out more ></a>
                     </div>
-                    <a class="cover-block" href="#"></a>
+                    
                 </div>
                 <div class="rightTwoRow">
                     <div class="boxLinks">
-                        <p class="boldHome">Icon</p>
+                        image
                     </div>
                 </div>
             </div>
@@ -229,9 +175,9 @@
                             All your insurances in one accessible place. Set renewal notifications and much more.
                         </p>
                         <br />
-                        <p class="boldHome">Find out more ></p>
+                        <a href="">Find out more ></a>
                     </div>
-                    <a class="cover-block" href="#"></a>
+                    
                 </div>
                 <div class="rightTwoRow">
                     <img src="Images/custom/Mobile Phone.png" alt="Mobile App Insurance" style="width:100%; height:110%; position:relative; top:-20px; left:-20px;"/>
@@ -508,6 +454,7 @@
         <script>
             $(document).foundation();
         </script>
+<!--
         <script type="text/javascript">
             $(document).ready(function () {
                 //Variables
@@ -518,5 +465,25 @@
                 });
             });
         </script>
+-->
+        <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+
+      navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
+      });
+    });
+    </script>
     </body>
 </html>
