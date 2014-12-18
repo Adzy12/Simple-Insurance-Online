@@ -34,14 +34,17 @@
     width: 33.3%;
     margin-left:0;
     margin-right:0;
+    height:auto;
 }
 .grid-6-9.noGutter {
     width: 66.6%; /* 700px/1080px */
     margin-left:0;
     margin-right:0;
+    height:auto;
 }
 .grid-9-9.noGutter {
     width: 100%; /* 1060px/1080px */
     margin-left:0;
     margin-right:0;
+    height:auto;
 }

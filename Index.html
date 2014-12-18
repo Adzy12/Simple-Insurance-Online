@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="Content/css/foundation.css" />
         <link rel="stylesheet" href="Content/css/customStyles.css" />
-        <link rel="stylesheet" href="slick/slick.css" />
         <link rel="stylesheet" href="Content/css/owl.carousel.css">
         <link rel="stylesheet" href="Content/css/owl.theme.css">
         <!-- WAY TOO MANY SCRIPTS IN HERE-->
@@ -14,7 +13,6 @@
         <script type="text/javascript" src="Content/javascript/jquery.js"></script>
         <script type="text/javascript" src="Content/javascript/fastclick.js"></script>
         <script type="text/javascript" src="Content/javascript/foundation.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="Content/javascript/owl.carousel.js"></script>
         
     </head>
@@ -41,375 +39,492 @@
             </div>
         </header>            
 
-            <div class="row-long" id="navBar">
-                <div class="contain-to-grid sticky">
-                    <nav class="top-bar" data-topbar role="navigation">
-                        <section class="top-bar-section">
-                            <ul class="left">
-                                <li><a href="#">Home</a></li>
-                                <li class="has-dropdown">
-                                    <a href="#">Motoring</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Car Insurance</a></li>
-                                        <li><a href="#">Van Insurance</a></li>
-                                        <li><a href="#">Motorbike Insurance</a></li>
-                                        <li><a href="#">Caravan Insurance</a></li>
-                                        <li><a href="#">Telematics Car Insurance</a></li>
-                                        <li><a href="#">Breakdown Cover</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Property</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Home Insurance</a></li>
-                                        <li><a href="#">Contents Insurance</a></li>
-                                        <li><a href="#">Buildings Insurance</a></li>
-                                        <li><a href="#">Landlord Insurance</a></li>
-                                        <li><a href="#">Business Insurance</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Energy</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Gas and Electricity</a></li>
-                                        <li><a href="#">Gas Only</a></li>
-                                        <li><a href="#">Electricity Only</a></li>
-                                        <li><a href="#">Dual Fuel</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Travel</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Single Trip Insurance</a></li>
-                                        <li><a href="#">Annual Insurance</a></li>
-                                        <li><a href="#">Winter Sports Insurance</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Phone and Internet</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Broadband Only</a></li>
-                                        <li><a href="#">Broadband and Phone</a></li>
-                                        <li><a href="#">Broadband, Phone and TV</a></li>
-                                        <li><a href="#">Mobile Broadband</a></li>
-                                        <li><a href="#">Fibre Optic Broadband</a></li>
-                                        <li><a href="#">Home Phone and Landline</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Business</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Public Liability Insurance</a></li>
-                                        <li><a href="#">Landlord Insurance</a></li>
-                                        <li><a href="#">Business Insurance</a></li>
-                                        <li><a href="#">Employers Liability Insurance</a></li>
-                                        <li><a href="#">Business Energy</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Health</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Health Insurance</a></li>
-                                        <li><a href="#">Life Insurance</a></li>
-                                        <li><a href="#">Over 50's Insurance</a></li>
-                                        <li><a href="#">Accident, sickness and unemployment Insurance</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="#">Money</a>
-                                    <ul class="dropdown">
-                                        <li><a href="#">Credit Cards</a></li>
-                                        <li><a href="#">Mortgages</a></li>
-                                        <li><a href="#">Loans</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Current Accounts</a></li>
-                                        <li><a href="#">Savers Accounts</a></li>
-                                        <li><a href="#">Cash ISA</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Pet</a></li>
-                            </ul>
-                        </section>
-                    </nav>
-                </div>
-            </div>
+
+        <!-- SCREEN WRAP FOR RESPONSIVE NAV BAR -->
+        
+	<div class="off-canvas-wrap">
+		<div class="inner-wrap">
+		
+            <!-- THIS IS FOR SMALL SCREENS  -->
+            <!--=========================== -->
             
-        <!-- CAROUSEL -->
-        <div id="owl-demo" class="owl-carousel owl-theme">
- 
-  <div class="item"><img src="Images/custom/Car.jpg" alt=""></div>
-  <div class="item"><img src="Images/custom/home.jpg" alt=""></div>
- 
-</div>
-        <!-- /CAROUSEL -->
+			<aside class="left-off-canvas-menu">
+				<ul class="off-canvas-list">
+					<li><a href="#">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Motoring</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Car Insurance</a></li>
+                            <li><a href="#">Van Insurance</a></li>
+                            <li><a href="#">Motorbike Insurance</a></li>
+                            <li><a href="#">Caravan Insurance</a></li>
+                            <li><a href="#">Telematics Car Insurance</a></li>
+                            <li><a href="#">Breakdown Cover</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Property</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Home Insurance</a></li>
+                            <li><a href="#">Contents Insurance</a></li>
+                            <li><a href="#">Buildings Insurance</a></li>
+                            <li><a href="#">Landlord Insurance</a></li>
+                            <li><a href="#">Business Insurance</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Energy</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Gas and Electricity</a></li>
+                            <li><a href="#">Gas Only</a></li>
+                            <li><a href="#">Electricity Only</a></li>
+                            <li><a href="#">Dual Fuel</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Travel</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Travel Insurance</a></li>
+                            <li><a href="#">Single Trip Insurance</a></li>
+                            <li><a href="#">Annual Insurance</a></li>
+                            <li><a href="#">Winter Sports Insurance</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Phone and Internet</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Broadband Only</a></li>
+                            <li><a href="#">Broadband and Phone</a></li>
+                            <li><a href="#">Broadband, Phone and TV</a></li>
+                            <li><a href="#">Mobile Broadband</a></li>
+                            <li><a href="#">Fibre Optic Broadband</a></li>
+                            <li><a href="#">Home Phone and Landline</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Business</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Public Liability Insurance</a></li>
+                            <li><a href="#">Landlord Insurance</a></li>
+                            <li><a href="#">Business Insurance</a></li>
+                            <li><a href="#">Employers Liability Insurance</a></li>
+                            <li><a href="#">Business Energy</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Health</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Health Insurance</a></li>
+                            <li><a href="#">Life Insurance</a></li>
+                            <li><a href="#">Over 50's Insurance</a></li>
+                            <li><a href="#">Accident, sickness and unemployment Insurance</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Money</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Credit Cards</a></li>
+                            <li><a href="#">Mortgages</a></li>
+                            <li><a href="#">Loans</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Current Accounts</a></li>
+                            <li><a href="#">Savers Accounts</a></li>
+                            <li><a href="#">Cash ISA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pet</a></li>
+				</ul>	
+			</aside>
+			
+            <!-- SMALL SCREEN TOGGLE BUTTON -->
+            <!--=========================== -->
+            
+			<nav class="tab-bar show-for-small">
+				<a class="left-off-canvas-toggle menu-icon">
+					<span></span>
+				</a>
+			</nav>
+			
+			<!--LARGE SCREEN NAV -->
+            <!--================ -->
+            <div class="contain-to-grid sticky">
+                <nav class="top-bar hide-for-small" data-topbar>
 
-<div class="large-12 mainbody">
-    <div class="row">
-        <div class="large-6 medium-6 small-12 columns">
-            <div class="divTwoRow">
-                <div class="leftTwoRow">
-                    <div class="boxLinks" >
-                        <h2 class="home">Multibuy and Special Offers</h2>
-                        <p class="home">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante nisl, gravida vitae turpis sit amet, porttitor lobortis erat.
-                        </p>
-                        <br />
-                        <a href="">Find out more ></a>
-                    </div>
-                    
-                </div>
-                <div class="rightTwoRow">
-                    <div class="boxLinks">
-                        image
-                    </div>
-                </div>
+                    <section class="top-bar-section">
+                        <ul class="right">
+                            <li><a href="#">Home</a></li>
+                            <li class="has-dropdown">
+                                <a href="#">Motoring</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Car Insurance</a></li>
+                                    <li><a href="#">Van Insurance</a></li>
+                                    <li><a href="#">Motorbike Insurance</a></li>
+                                    <li><a href="#">Caravan Insurance</a></li>
+                                    <li><a href="#">Telematics Car Insurance</a></li>
+                                    <li><a href="#">Breakdown Cover</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Property</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Home Insurance</a></li>
+                                    <li><a href="#">Contents Insurance</a></li>
+                                    <li><a href="#">Buildings Insurance</a></li>
+                                    <li><a href="#">Landlord Insurance</a></li>
+                                    <li><a href="#">Business Insurance</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Energy</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Gas and Electricity</a></li>
+                                    <li><a href="#">Gas Only</a></li>
+                                    <li><a href="#">Electricity Only</a></li>
+                                    <li><a href="#">Dual Fuel</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Travel</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Travel Insurance</a></li>
+                                    <li><a href="#">Single Trip Insurance</a></li>
+                                    <li><a href="#">Annual Insurance</a></li>
+                                    <li><a href="#">Winter Sports Insurance</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Phone and Internet</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Broadband Only</a></li>
+                                    <li><a href="#">Broadband and Phone</a></li>
+                                    <li><a href="#">Broadband, Phone and TV</a></li>
+                                    <li><a href="#">Mobile Broadband</a></li>
+                                    <li><a href="#">Fibre Optic Broadband</a></li>
+                                    <li><a href="#">Home Phone and Landline</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Business</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Public Liability Insurance</a></li>
+                                    <li><a href="#">Landlord Insurance</a></li>
+                                    <li><a href="#">Business Insurance</a></li>
+                                    <li><a href="#">Employers Liability Insurance</a></li>
+                                    <li><a href="#">Business Energy</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Health</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Health Insurance</a></li>
+                                    <li><a href="#">Life Insurance</a></li>
+                                    <li><a href="#">Over 50's Insurance</a></li>
+                                    <li><a href="#">Accident, sickness and unemployment Insurance</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Money</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Credit Cards</a></li>
+                                    <li><a href="#">Mortgages</a></li>
+                                    <li><a href="#">Loans</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Current Accounts</a></li>
+                                    <li><a href="#">Savers Accounts</a></li>
+                                    <li><a href="#">Cash ISA</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pet</a></li>
+                        </ul>
+                    </section>
+                </nav>	
             </div>
-        </div>
-        <div class="large-6 medium-6 small-12 columns">
-            <div class="divTwoRow">
-                <div class="leftTwoRow">
-                    <div class="boxLinks" >
-                        <h2 class="home">Insurance on the go!</h2>
-                        <p class="home">
-                            All your insurances in one accessible place. Set renewal notifications and much more.
-                        </p>
-                        <br />
-                        <a href="">Find out more ></a>
-                    </div>
-                    
-                </div>
-                <div class="rightTwoRow">
-                    <img src="Images/custom/Mobile Phone.png" alt="Mobile App Insurance" style="width:100%; height:110%; position:relative; top:-20px; left:-20px;"/>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="row">
-
-        <div class="large-4 medium-4 small-12 columns">
-            <div class="divThreeRow">
-                <img class="divImage" src="Images/custom/house2.jpg" alt="House Insurance" />
-                <div class="boxImageBackground" style="height:75%;">
-                    <h2 class="home">House Insurance</h2>
-                        <p class="home">
-                            Save money by getting your house and contents insurance together.
-                        </p>
-                    
-                </div>
-                <div style="text-align:right; height:25%; padding-right:0.5em;">
-                    <a href="#" class="button nav" id="btnGetHomeQuote">Get quote</a>
-                </div>
-                
-            </div>
-        </div>
-        
-        <div class="large-4 medium-4 small-12 columns">
-            <div class="divThreeRow">
-                <img class="divImage" src="Images/custom/Gadgets.jpg" alt="Gadget Insurance" />
-                <div class="boxImageBackground" style="height:75%;">
-                    <h2 class="home">Phone & Gadget Insurance</h2>
-                        <p class="home">
-                            Peice of mind of being vocered for loss, theft or accidental damage.
-                        </p>
-                    
-                </div>
-                <div style="text-align:right; height:25%; padding-right:0.5em;">
-                    <a href="#" class="button nav" id="btnGetGadgetQuote">Get quote</a>
-                </div>
-                
-            </div>
-        </div>
-
-        <div class="large-4 medium-4 small-12 columns">
-            <div class="divThreeRow">
-                <img class="divImage" src="Images/custom/Old People.jpg" alt="Life Insurance" />
-                <div class="boxImageBackground" style="height:75%;">
-                    <h2 class="home">Life Insurance</h2>
-                        <p class="home">
-                            Buy life insurance, and get cashback on your purchase
-                        </p>
-                    
-                </div>
-                <div style="text-align:right; height:25%; padding-right:0.5em;">
-                    <a href="#" class="button nav" id="btnGetLifeQuote">Get quote</a>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="large-4 medium-4 small-12 columns">
-            <div class="divThreeRow">
-                <img class="divImage" src="Images/custom/Lightbulb.jpg" alt="Switch Energy Tariffs" />
-                <div class="boxImageBackground" style="height:75%;">
-                    <h2 class="home">Switch Energy Tariffs</h2>
-                        <p class="home">
-                            See if you could save £154 on your energy bills in just a few minutes!
-                        </p>
-                    
-                </div>
-                <div style="text-align:right; height:25%; padding-right:0.5em;">
-                    <a href="#" class="button nav" id="btnGetEnergyQuote">Get quote</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="large-4 medium-4 small-12 columns">
-            <div class="divThreeRow">
-                <img class="divImage" src="Images/custom/Aeroplane.jpg" alt="Travel Insurance" />
-                <div class="boxImageBackground" style="height:75%;">
-                    <h2 class="home">Travel Insurance</h2>
-                        <p class="home">
-                            Planning on a family holiday anyime soon? Get the right deal for the right price
-                        </p>
-                    
-                </div>
-                <div style="text-align:right; height:25%; padding-right:0.5em;">
-                    <a href="#" class="button nav" id="btnGetTravelQuote">Get quote</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="large-4 medium-4 small-12 columns">
-            <div class="divThreeRow">
-                <img class="divImage" src="Images/custom/dog.jpg" alt="Pet Insurance" />
-                <div class="boxImageBackground" style="height:75%;">
-                    <h2 class="home">Pet Insurance</h2>
-                        <p class="home">
-                            Pet Insurance from competitive prices based on your requirements.
-                        </p>
-                    
-                </div>
-                <div style="text-align:right; height:25%; padding-right:0.5em;">
-                    <a href="#" class="button nav" id="btnGetPetQuote">Get quote</a>
-                </div>
-                
-            </div>
-        </div>
-    </div>
+            
+        <!-- THE MAIN CONTENT SECTION  -->    
+            
+        <section class="main-section">
     
-</div>
+            
+            <!-- CAROUSEL -->
+            <div id="owl-demo" class="owl-carousel owl-theme">
 
-<div class="row white">
+                <div class="item"><img src="Images/custom/Car.jpg" alt=""></div>
+                <div class="item"><img src="Images/custom/home.jpg" alt=""></div>
 
-    <div class="large-8 columns">
-
-        <div class="row">
-            <div id="ArticleTitle">
-                <h2 class="centerHome">Latest Articles from the Insurance-Online.com Magazine</h2>
-                <img src="Images/custom/Lineborder.png" class="lineBorder" />
             </div>
-        </div>
-        
-        
-        
-        <div class="row">
-            <div class="content">
-                <div class="large-3 columns">
-                    <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
+            <!-- /CAROUSEL -->
+            <div class="large-12 mainbody">
+                <div class="row">
+                    <div class="large-6 medium-6 small-12 columns">
+                        <div class="divTwoRow">
+                            <div class="leftTwoRow">
+                                <div class="boxLinks" >
+                                    <h2 class="home">Multibuy and Special Offers</h2>
+                                    <p class="home">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante nisl, gravida vitae turpis sit amet, porttitor lobortis erat.
+                                    </p>
+                                    <br />
+                                    <a href="">Find out more ></a>
+                                </div>
+
+                            </div>
+                            <div class="rightTwoRow">
+                                <div class="boxLinks">
+                                    image
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-6 medium-6 small-12 columns">
+                        <div class="divTwoRow">
+                            <div class="leftTwoRow">
+                                <div class="boxLinks" >
+                                    <h2 class="home">Insurance on the go!</h2>
+                                    <p class="home">
+                                        All your insurances in one accessible place. Set renewal notifications and much more.
+                                    </p>
+                                    <br />
+                                    <a href="">Find out more ></a>
+                                </div>
+
+                            </div>
+                            <div class="rightTwoRow">
+                                <img src="Images/custom/Mobile Phone.png" alt="Mobile App Insurance" style="width:100%; height:110%; position:relative; top:-20px; left:-20px;"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="large-9 columns">
-                    <p class="boldHome">
-                        Ford Recalls Faulty Cars
-                    </p>
-                    <p class="home">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
-                    </p>
+
+                <div class="row">
+
+                    <div class="large-4 medium-4 small-12 columns">
+                        <div class="divThreeRow">
+                            <img class="divImage" src="Images/custom/house2.jpg" alt="House Insurance" />
+                            <div class="boxImageBackground" style="height:75%;">
+                                <h2 class="home">House Insurance</h2>
+                                    <p class="home">
+                                        Save money by getting your house and contents insurance together.
+                                    </p>
+
+                            </div>
+                            <div style="text-align:right; height:25%; padding-right:0.5em;">
+                                <a href="#" class="button nav" id="btnGetHomeQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="large-4 medium-4 small-12 columns">
+                        <div class="divThreeRow">
+                            <img class="divImage" src="Images/custom/Gadgets.jpg" alt="Gadget Insurance" />
+                            <div class="boxImageBackground" style="height:75%;">
+                                <h2 class="home">Phone & Gadget Insurance</h2>
+                                    <p class="home">
+                                        Peice of mind of being vocered for loss, theft or accidental damage.
+                                    </p>
+
+                            </div>
+                            <div style="text-align:right; height:25%; padding-right:0.5em;">
+                                <a href="#" class="button nav" id="btnGetGadgetQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="large-4 medium-4 small-12 columns">
+                        <div class="divThreeRow">
+                            <img class="divImage" src="Images/custom/Old People.jpg" alt="Life Insurance" />
+                            <div class="boxImageBackground" style="height:75%;">
+                                <h2 class="home">Life Insurance</h2>
+                                    <p class="home">
+                                        Buy life insurance, and get cashback on your purchase
+                                    </p>
+
+                            </div>
+                            <div style="text-align:right; height:25%; padding-right:0.5em;">
+                                <a href="#" class="button nav" id="btnGetLifeQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="large-4 medium-4 small-12 columns">
+                        <div class="divThreeRow">
+                            <img class="divImage" src="Images/custom/Lightbulb.jpg" alt="Switch Energy Tariffs" />
+                            <div class="boxImageBackground" style="height:75%;">
+                                <h2 class="home">Switch Energy Tariffs</h2>
+                                    <p class="home">
+                                        See if you could save £154 on your energy bills in just a few minutes!
+                                    </p>
+
+                            </div>
+                            <div style="text-align:right; height:25%; padding-right:0.5em;">
+                                <a href="#" class="button nav" id="btnGetEnergyQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="large-4 medium-4 small-12 columns">
+                        <div class="divThreeRow">
+                            <img class="divImage" src="Images/custom/Aeroplane.jpg" alt="Travel Insurance" />
+                            <div class="boxImageBackground" style="height:75%;">
+                                <h2 class="home">Travel Insurance</h2>
+                                    <p class="home">
+                                        Planning on a family holiday anyime soon? Get the right deal for the right price
+                                    </p>
+
+                            </div>
+                            <div style="text-align:right; height:25%; padding-right:0.5em;">
+                                <a href="#" class="button nav" id="btnGetTravelQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="large-4 medium-4 small-12 columns">
+                        <div class="divThreeRow">
+                            <img class="divImage" src="Images/custom/dog.jpg" alt="Pet Insurance" />
+                            <div class="boxImageBackground" style="height:75%;">
+                                <h2 class="home">Pet Insurance</h2>
+                                    <p class="home">
+                                        Pet Insurance from competitive prices based on your requirements.
+                                    </p>
+
+                            </div>
+                            <div style="text-align:right; height:25%; padding-right:0.5em;">
+                                <a href="#" class="button nav" id="btnGetPetQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row white">
+
+                <div class="large-8 columns">
+
+                    <div class="row">
+                        <div id="ArticleTitle">
+                            <h2 class="centerHome">Latest Articles from the Insurance-Online.com Magazine</h2>
+                            <img src="Images/custom/Lineborder.png" class="lineBorder" />
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="content">
+                            <div class="large-3 columns">
+                                <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
+                            </div>
+                            <div class="large-9 columns">
+                                <p class="boldHome">
+                                    Ford Recalls Faulty Cars
+                                </p>
+                                <p class="home">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="content">
+                            <div class="large-3 columns">
+                                <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
+                            </div>
+                            <div class="large-9 columns">
+                                <p class="boldHome">
+                                    Ford Sells New Cars
+                                </p>
+                                <p class="home">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="content">
+                            <div class="large-3 columns">
+                                <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
+                            </div>
+                            <div class="large-9 columns">
+                                <p class="boldHome">
+                                    Ford Unveils Plans for their new line of cars
+                                </p>
+                                <p class="home">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="large-4 columns">
+
+                    <div class="row">
+                        <div id="CustomerRatingsTitle">
+                            <h2 class="centerHome">What our customers say</h2>
+                            <img src="Images/custom/Lineborder.png" class="lineBorder" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="content">
+                            <p class="boldHome">
+                                Mr Joe Bloggs - Dorsett - 10/11/2014
+                            </p>
+                            <p class="home">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus.
+                            </p>
+                            <img src="Images/custom/3out5stars.png" alt="Insurance Feedback" class="starImage"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="content">
+                            <p class="boldHome">
+                                Mrs Dorothy Brown - Glasgow - 11/11/2014
+                            </p>
+                            <p class="home">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus.
+                            </p>
+                            <img src="Images/custom/3out5stars.png" alt="Insurance Feedback" class="starImage"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="content">
+                            <p class="boldHome">
+                               Miss Michelle Smith - London - 12/11/2014
+                            </p>
+                            <p class="home">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus.
+                            </p>
+                            <img src="Images/custom/3out5stars.png" alt="Insurance Feedback" class="starImage"/>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="content">
-                <div class="large-3 columns">
-                    <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
-                </div>
-                <div class="large-9 columns">
-                    <p class="boldHome">
-                        Ford Sells New Cars
-                    </p>
-                    <p class="home">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="content">
-                <div class="large-3 columns">
-                    <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
-                </div>
-                <div class="large-9 columns">
-                    <p class="boldHome">
-                        Ford Unveils Plans for their new line of cars
-                    </p>
-                    <p class="home">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
-                    </p>
-                </div>
-            </div>
-        </div>
-
+        </section>
+            <!-- /THE MAIN CONTENT SECTION  -->   
+            <!-- DISABLE THE SIDE MENU BY CLICKING ANYWHERE  -->   
+        <a class="exit-off-canvas"></a>
 
     </div>
-
-
-
-    <div class="large-4 columns">
-        
-        <div class="row">
-            <div id="CustomerRatingsTitle">
-                <h2 class="centerHome">What our customers say</h2>
-                <img src="Images/custom/Lineborder.png" class="lineBorder" />
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="content">
-                <p class="boldHome">
-                    Mr Joe Bloggs - Dorsett - 10/11/2014
-                </p>
-                <p class="home">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus.
-                </p>
-                <img src="Images/custom/3out5stars.png" alt="Insurance Feedback" class="starImage"/>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="content">
-                <p class="boldHome">
-                    Mrs Dorothy Brown - Glasgow - 11/11/2014
-                </p>
-                <p class="home">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus.
-                </p>
-                <img src="Images/custom/3out5stars.png" alt="Insurance Feedback" class="starImage"/>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="content">
-                <p class="boldHome">
-                   Miss Michelle Smith - London - 12/11/2014
-                </p>
-                <p class="home">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus.
-                </p>
-                <img src="Images/custom/3out5stars.png" alt="Insurance Feedback" class="starImage"/>
-            </div>
-        </div>
-
-
-
-    </div>
 </div>
-
-
 
 
 <script>
