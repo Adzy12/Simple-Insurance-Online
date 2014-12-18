@@ -1,0 +1,47 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.grid {
+    @include clearfix;
+    margin-bottom: 1.571428571428571em;
+    
+}
+[class*='grid-'] {
+    margin: 0 .92592592592593%;
+    float: left;
+    position: relative;
+}
+.grid-3-9 {
+    width: 31.48148148148148%;
+    border: 1px solid grey;
+}
+.grid-6-9 {
+    width: 64.81481481481481%; /* 700px/1080px */
+    border: 1px solid grey;
+}
+.grid-9-9 {
+    width: 98.14814814814815%; /* 1060px/1080px */
+    border: 1px solid grey;
+}
+
+
+/* GRID NO BORDER */
+
+
+.grid-3-9.noGutter {
+    width: 33.3%;
+    margin-left:0;
+    margin-right:0;
+}
+.grid-6-9.noGutter {
+    width: 66.6%; /* 700px/1080px */
+    margin-left:0;
+    margin-right:0;
+}
+.grid-9-9.noGutter {
+    width: 100%; /* 1060px/1080px */
+    margin-left:0;
+    margin-right:0;
+}
