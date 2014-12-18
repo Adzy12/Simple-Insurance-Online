@@ -1,10 +1,9 @@
 body {
-    background: #F2F2F2;
+    background: white;
+    color: #555555;
 }
-
 .head.row.full {
-    padding-top: 1em;
-
+    padding: 2em 0;
 }
 
 .logo {
@@ -17,6 +16,7 @@ body {
     font-size: 1em;
     text-align: center;
     padding: 1em;
+    display: inline-block;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
@@ -39,7 +39,6 @@ body {
 .btn:hover {
     color: white;
 }
-
 /* Navigation*/
 
 /* Color for the header*/
@@ -57,11 +56,8 @@ div.row.white {
     padding-top:1em;
     padding-bottom:1em;
 }
-
-
-
 nav.top-bar {
-text-align:center;
+  text-align:center;
 }
 
 section.top-bar-section {
@@ -76,7 +72,6 @@ section.top-bar-section {
 
 .head.row.full {
     color:black;
-    background:#F2F2F2;
 }
 
 .top-bar-section ul li > a {
@@ -392,24 +387,19 @@ p.home {
     font-size: 1em;
     text-align: center;
     padding: 2em 0 2em 0;
-/*
-    position:fixed;
-    left:0px;
-    bottom:0px;
-*/
-    -webkit-box-shadow: 0px -1px 1px 0px rgba(50, 50, 50, 0.4);
-    -moz-box-shadow:    0px -1px 1px 0px rgba(50, 50, 50, 0.4);
-    box-shadow:         0px -1px 1px 0px rgba(50, 50, 50, 0.4);
 }
 
 a.footerLink {
     color:white;
     font-style:normal;
+    font-weight: normal;
     font-size:0.875em;
+    display: inline-block;
+    padding: 0 1em;
 
 }
     a.footerLink:hover {
-        color:lightcyan;
+        text-decoration: underline;
     }
 
 #links {
