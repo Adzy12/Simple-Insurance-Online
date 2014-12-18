@@ -321,6 +321,11 @@ a.cover-block {
     height:150px;
 
 }
+.divPlaceImage.small{
+    width:75px;
+    height:75px;
+}
+
 
 .starImage {
     width:9em;
