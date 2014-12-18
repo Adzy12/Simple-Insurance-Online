@@ -7,12 +7,10 @@
         <link rel="stylesheet" href="Content/css/foundation.css" />
         <link rel="stylesheet" href="Content/css/grid.css" />
         <link rel="stylesheet" href="Content/css/customStyles.css" />
-        <link rel="stylesheet" href="slick/slick.css" />
         
         <script type="text/javascript" src="Content/javascript/modernizr.js"></script>
         <script type="text/javascript" src="Content/javascript/jquery.js"></script>
         <script type="text/javascript" src="Content/javascript/fastclick.js"></script>
-        <script type="text/javascript" src="Content/javascript/jquery.backstretch.min.js"></script>
         <script type="text/javascript" src="Content/javascript/foundation.min.js"></script>
     </head>
     <body>
@@ -235,44 +233,315 @@
             
         <section class="main-section">
         
-        <div class="row">
+        <div class="row" id="rowContent">       
+            <div class="row" id="helloMessage">
+                <div class="large-9 large-offset-3 columns">
+                    <h1>Hello User,</h1>
+                </div>
+            </div>
             <div class="large-12 columns">
-                <!-- Your Quotes Section -->
-                <div class="large-2 columns">
-                    Your Quotes
+            <!-- Your Quotes Section -->
+            <div class="large-3 columns">
+                <div class="large-12" id="divYourQuotes">
+                    <div id="divInnerYourQuotes">
+                        <h2 class="home">Your Quotes</h2>
+                        <img src="Images/custom/Lineborder.png" class="fullLineBorder" /> 
+                        
+                        <!-- THIS IS WHERE THE QUOTES WILL BE LISTED -->
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Car Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 1</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Motorbike Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Van Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Property Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 2</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Energy Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Health Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Travel Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Pet Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="small-9 columns">
+                                <p class="home">Other Quotes</p>
+                            </div>
+                            <div class="small-3 columns">
+                                <p class="boldHome"> 1</p>
+                            </div>
+                        </div>
+                        
+                        <img src="Images/custom/Lineborder.png" class="fullLineBorder" /> 
+                        
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="#" class="accountLinks">Account Settings</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="#" class="accountLinks">Contact Preferences</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="#" class="accountLinks">Your Details</a>
+                            </div>
+                        </div>
+                        
+                        <img src="Images/custom/Lineborder.png" class="fullLineBorder" />
+                        
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="#" class="btn nav" id="btnAccStartNewQuote">Start a New Quote</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Section -->
+            <div class="large-9 columns">
+                <div class="large-12 columns" id="divYourQuotes">
+                    <div id="divInnerYourQuotes">
+                        <div class="row">
+                            <div class="grid-6-9 noBorder grdAcc" style="border-right:solid 1px; height:100%;">
+                                <img src="Images/custom/Car.png" alt="Car Insurance" class="divImageDefaultSize">
+                            </div>
+                            <div class="grid-3-9 noBorder grdAcc">
+                                <div class="row">
+                                    <div class="small-9 columns">
+                                        <h2 class="home">Quote Details</h2>
+                                    </div>
+                                    <div class="small-3 columns" style="padding:0.5em 0 0 0;">
+                                        <a href="#" class="accLinkSmall">Edit</a>
+                                        |
+                                        <a href="#" class="accLinkSmall">Delete</a>  
+                                    </div>
+                                </div>
+                                <img src="Images/custom/Lineborder.png" class="fullLineBorder" />
+                                
+                                <!-- THE QUOTE DETAILS -->
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <p class="home"><b>Main Driver : </b>Matthew Johnson</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <p class="home"><b>Additional Driver(s) : </b>Emma Johnson</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <p class="home"><b>Car : </b>P234 MEJ - 2008 Skoda Octacia Ambiente Tdi Pd, 1896CC Diesel, 5DR, Manual </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <p class="home"><b>Cover Type : </b>Comprehensive</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <p class="home"><b>Voulantary Excess : </b>£150</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <p class="home"><b>Start Date : </b>07/01/2014</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- Insurance Boxes -->            
+                <div class="row">
+                    <div class="large-6 small-12 columns">
+                        <div class="divThreeRow">
+                            <div class="boxImageBackground" >
+                                <h2>House Insurance</h2>
+                                <p >Save money by getting your house and contents insurance together.</p>
+                                <a href="#" class="btn nav" id="btnGetHomeQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="large-6 small-12 columns">
+                        <div class="divThreeRow">
+                            <div class="boxImageBackground" >
+                                <h2>Gadget/Device Insurance</h2>
+                                <p >Save money by getting your house and contents insurance together.</p>
+                                <a href="#" class="btn nav" id="btnGetGadgetQuote">Get quote</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-6 small-12 columns">
+                        <div class="divThreeRow">
+                            <div class="boxImageBackground" >
+                                <h2 class="home">Insurance on the go!</h2>
+                                    <p class="home">
+                                        All your insurances in one accessible place. Set renewal notifications and much more.
+                                    </p>
+                                    <br />
+                                    <a href="#">Find out more ></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="large-6 small-12 columns">
+                        <div class="divThreeRow">
+                            <div class="boxImageBackground" >
+                                <h2>External Affiliate Ad</h2>
+                                <p>Bacon ipsum dolor amet short loin strip steak tenderloin brisket shank, bresaola salami porchetta turkey ham hock venison t-bone short ribs ground round biltong.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-12 columns">
+
+                        <div class="row">
+                            <div id="ArticleTitle">
+                                <h2 class="centerHome">Latest Articles from the Insurance-Online.com Magazine</h2>
+                                <img src="Images/custom/Lineborder.png" class="fullL" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="content">
+                                <div class="large-3 columns">
+                                    <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
+                                </div>
+                                <div class="large-9 columns">
+                                    <p class="boldHome">
+                                        Ford Recalls Faulty Cars
+                                    </p>
+                                    <p class="home">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="content">
+                                <div class="large-3 columns">
+                                    <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
+                                </div>
+                                <div class="large-9 columns">
+                                    <p class="boldHome">
+                                        Ford Sells New Cars
+                                    </p>
+                                    <p class="home">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="content">
+                                <div class="large-3 columns">
+                                    <img src="Images/custom/ImagePlaceholder.png" class="divPlaceImage" />
+                                </div>
+                                <div class="large-9 columns">
+                                    <p class="boldHome">
+                                        Ford Unveils Plans for their new line of cars
+                                    </p>
+                                    <p class="home">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales sit amet nibh a cursus. Suspendisse eu nibh eget neque aliquam maximus. Duis imperdiet purus lorem, in placerat lorem egestas a. Phasellus leo sem, fermentum ut pretium quis, commodo eget felis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
                 
-                <!-- Main Content Section -->
-                <div class="large-10 columns">
-                    
-                    <div class="row" id="helloMessage">
-                        <h1>Hello User,</h1>
-                    </div>
-                    <div class="row" style="height:5.1em">
-                        <div class="grid-6-9 noGutter">
-                            Hello
-                            <br/>
-                            Hello
-                            <br/>
-                            Hello
-                            <br/>
-                            Hello
-                            <br/>
-                            Hello
-                            <br/>
-                        </div>
-                        <div class="grid-3-9 noGutter" style="height:100%; border-left:none;">
-                            Hello
-                        </div>
-                    </div>
-                    
-                    
-                    
-                </div>
                 
+                
+                     
+
+                    
+
+
 
             </div>
         </div>
+    </div>
         
         
         
