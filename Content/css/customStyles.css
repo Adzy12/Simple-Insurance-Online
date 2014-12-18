@@ -8,12 +8,19 @@ body {
 
 .logo {
     font-size: 3em;
-    font-weight: 500;
+    line-height: 0.8em;
+    font-weight: 600;
     width: auto;
     float: left;
+    color: #555;
 }
 .logo .green {
     color: #78da67;
+}
+.logo-subText {
+    font-size: 0.5em;
+    line-height: 0;
+    font-weight: normal;
 }
 .login-search {
     width: 50%;
@@ -137,11 +144,28 @@ section.top-bar-section {
     width:15em;
 }
 
-/*Carousel*/
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+/*Carousel inner element*/
+.item .MainCopy {
+    position: absolute;
+    left: 20%;
+    top: 3%;
+    width: 30%;
+    padding: 2em;
+    color: white;
+}
+.MainCopy h1 {
+    color: white;
+}
+.MainCopy h2 {
+    color: white;
+    font-weight: normal;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid white
+}
+.MainCopy h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 1.6em;
 }
 
 
