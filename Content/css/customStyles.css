@@ -1,0 +1,403 @@
+body {
+    background: #F2F2F2;
+}
+
+.head.row.full {
+    padding-top: 1em;
+
+}
+
+.logo {
+    background-color:silver;
+}
+
+
+/* Navigation*/
+
+/* Color for the header*/
+.top-bar-section li:not(.has-form) a:not(.button) , .top-bar , .contain-to-grid , .large-12.mainbody {
+    color:black;
+    background:#D8D8D8;
+}
+
+div.row {
+    max-width:85em;
+}
+
+div.row.white {
+    background-color:#F2F2F2;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+
+
+nav.top-bar {
+text-align:center;
+}
+
+section.top-bar-section {
+    display:inline-block;
+}
+
+.contain-to-grid {
+    border-bottom: solid;
+    border-top:solid;
+    border-width:1px;
+}
+
+.head.row.full {
+    color:black;
+    background:#F2F2F2;
+}
+
+.top-bar-section ul li > a {
+    font-size:1em;
+    border-right:solid;
+    border-width:1px;
+    min-width:7em;
+}
+.top-bar-section ul li:first-of-type {
+    border-left:solid;
+    border-width:1px;
+}
+
+#btnSignIn {
+    margin-right:20px;
+}
+#search {
+    width:95%;
+}
+
+/*Buttons*/
+
+.button.nav {
+    padding-top: 0.875rem;
+    padding-right: 1.75rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 1.75rem;
+    font-size: 0.8125rem;
+    width:15em;
+
+    border-radius:5px;
+    background-color: #e9e9e9;
+    border-color: #bababa;
+    color: #333333;
+    border-width:.5px;
+    font-weight:bold;
+
+    z-index:3;
+
+}
+    .button.nav:hover {
+        border-radius:5px;
+        background-color: #bababa;
+        border-color: #9c9c9c;
+        color: #333333; 
+        font-weight:bold;
+        width:15em;
+    }
+
+
+    /*Image Slider*/
+
+.backstretch {
+
+    opacity:0.4;
+    width:100% !important;
+    height:550px !important;
+       
+
+}
+
+.slick-slider {
+    margin-top: 10px;
+    margin-left:2%;
+}
+
+.sldImage {
+    width:1200px;
+    height:550px;
+
+    position:relative;
+    display: block;
+}
+
+.recentQuote {
+    text-align:center;
+    border-color:black;
+    border-width:1px;
+    border-style:double;
+    padding:10px;
+    padding-top:25px;
+    
+    margin-top:5em;
+    width: 350px;
+    background-color:rgba(175,175,175,.3);
+}
+
+
+.carouselRow {
+    z-index: -120;
+    padding-top:30px;
+    margin-top:30px;
+}
+
+.large-12.medium-12.small-12.carousel {
+    max-width: 98%;
+}
+
+
+
+/*DIVS*/
+
+
+.divTwoRow {
+    width:100%;
+    height:12em;
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#F2F2F2;
+
+}
+
+.leftTwoRow {
+    width:70%;
+    height:100%;
+    border-right:solid;
+    border-color:black;
+    border-width:1px;
+    float:left;
+}
+
+.rightTwoRow {
+    width:30%;
+    height:100%;
+    float:left;
+}
+
+.boxLinks{
+    text-align:center;
+    padding:1em 1em;
+}
+
+.boxImageBackground {
+    text-align:center;
+    padding:1em 1em;
+}
+
+a.cover-block {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    display:block;
+    opacity:0.1;
+    z-index:5025;
+}
+
+.divThreeRow {
+    width:100%;
+    height:18em;
+    border-color:black;
+    border-width:1px;
+    border-style:double;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#F2F2F2;
+}
+
+.divTwoThirds {
+    width:100%;
+    height:10em;
+    border-color:black;
+    border-width:1px;
+    border-style:double;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#F2F2F2;
+}
+
+.innerBorder {
+    width:100%;
+    height:10em;
+    border-color:black;
+    border-width:1px;
+    border-style:double;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#F2F2F2;
+}
+
+.oneThird {
+    width:33.33333%;
+    padding: 0em 1.45em;
+    border:solid;
+}
+
+.twoThird {
+    width:66.66667%;
+    padding: 0em 1.45em;
+    border:solid;
+}
+
+#divUser{
+    padding-top:2em;
+}
+
+#divUser , #divPass{
+    
+    margin-left:1em;
+    margin-right:1em    
+}
+
+
+
+
+#loginBox , #editBox
+{
+    border-style:solid;
+    margin-bottom:2em;
+}
+
+
+
+
+
+
+.content {
+    padding:2em 2em;
+}
+
+/*Div Images*/
+
+.divImage {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    display:block;
+    opacity:0.33;
+    z-index:1;
+    text-align:center;
+    padding:10px 1.45em;
+
+}
+
+.divPlaceImage {
+    width:150px;
+    height:150px;
+
+}
+
+.starImage {
+    width:9em;
+    height:2em;
+}
+
+
+/*Homepage Text*/
+
+h1.home, h1.boldHome, h2.home, p.boldHome, p.home  {
+    color:black;
+}
+
+h1.home {
+}
+
+h1.boldHome {
+    font-weight:bold;
+}
+
+h2.home {
+}
+
+h2.centerHome {
+    text-align:center;
+    padding: 0.25em 0;
+}
+
+p.boldHome {
+    font-weight:bold;
+}
+
+p.home {
+}
+
+
+/*Images and Ting*/
+
+.lineBorder {
+    text-align:center;
+    width:80%;
+    height:1px;
+    margin:0px 10%;
+}
+
+
+/* Login Page Stuffs */
+
+#WelcomeBack{
+    padding-top: 5em;
+    padding-bottom:2em;
+    
+}
+
+
+
+
+
+
+/*Footer Stuff*/
+
+#green-bottom-banner {
+    background-color: #4cad3c;
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 2em 0 2em 0;
+/*
+    position:fixed;
+    left:0px;
+    bottom:0px;
+*/
+    -webkit-box-shadow: 0px -1px 1px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    0px -1px 1px 0px rgba(50, 50, 50, 0.4);
+    box-shadow:         0px -1px 1px 0px rgba(50, 50, 50, 0.4);
+}
+
+a.footerLink {
+    color:white;
+    font-style:normal;
+    font-size:0.875em;
+
+}
+    a.footerLink:hover {
+        color:lightcyan;
+    }
+
+#links {
+    padding-bottom:2.5em;
+
+}
+
+p.superSmall {
+    color:white;
+    font-size:0.7em;
+
+}
+
+.pContainer {
+    text-align:center;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
