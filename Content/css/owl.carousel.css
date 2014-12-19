@@ -40,7 +40,8 @@
 	
 .owl-carousel .owl-item{
 	float: left;
-    height: 520px;
+    height: 460px;
+    border-bottom: 3px solid white;
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{

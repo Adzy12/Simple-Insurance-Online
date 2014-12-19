@@ -226,9 +226,9 @@ section.top-bar-section {
     left: 20%;
     top: 5%;
     width: 30%;
-    padding: 2em;
+    padding: 1.5em;
     color: white;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(85,85,85,0.6);
 }
 .MainCopy h1 {
     color: white;
@@ -250,7 +250,7 @@ section.top-bar-section {
     top: 14%;
     padding: 1em;
     color: white;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(85,85,85,0.6);
     text-align: center;
 }
 .recentQuoteBox h4 {
