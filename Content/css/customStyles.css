@@ -159,6 +159,7 @@ section.top-bar-section {
     width: 30%;
     padding: 2em;
     color: white;
+    background-color: rgba(0,0,0,0.6);
 }
 .MainCopy h1 {
     color: white;
@@ -174,7 +175,28 @@ section.top-bar-section {
     font-weight: normal;
     font-size: 1.6em;
 }
-
+.recentQuoteBox {
+    position: absolute;
+    right: 20%;
+    top: 3%;
+    padding: 1em;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+}
+.recentQuoteBox h4 {
+    color: white;
+}
+.orNewQuote {
+    position: absolute;
+    right: 26.5%;
+    bottom: 38%;
+    color: white;
+    text-align: center;
+}
+.orNewQuote h2 {
+        color: white;
+    }
 
 /*DIVS*/
 

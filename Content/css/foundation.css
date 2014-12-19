@@ -1450,7 +1450,7 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: white; }
     .top-bar-section ul li.active > a {
-      background: #00aeef;
+      background: #78da67;
       color: white; }
       .top-bar-section ul li.active > a:hover {
         background: #0096ce;
@@ -1582,7 +1582,7 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #00aeef; }
+      background: #78da67; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #0096ce; }
     .top-bar-section .has-dropdown > a {
@@ -2312,7 +2312,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #00aeef;
+  color: #78da67;
   text-decoration: none;
   line-height: inherit;
   font-weight:bold;
