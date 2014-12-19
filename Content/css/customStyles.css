@@ -2,10 +2,25 @@ body {
     background: white;
     color: #555555;
 }
+.mainbody {
+    padding: 3em 0 2em 0;
+    background: #f9f9f9; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNGQ0ZDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #f9f9f9 0%, #d4d4d4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#d4d4d4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f9f9f9 0%,#d4d4d4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f9f9f9 0%,#d4d4d4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f9f9f9 0%,#d4d4d4 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f9f9f9 0%,#d4d4d4 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#d4d4d4',GradientType=0 ); /* IE6-8 */
+}
 .head.row.full {
     padding: 2em 0;
 }
-
+header {
+    border-bottom: 1px solid #555;
+}
 .logo {
     font-size: 3em;
     line-height: 0.8em;
@@ -54,6 +69,18 @@ body {
 }
 .btn:hover {
     color: white;
+    text-decoration: none;
+    background: rgb(70,193,62); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ2YzEzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDhjMTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(70,193,62,1) 0%, rgba(0,140,16,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(70,193,62,1)), color-stop(100%,rgba(0,140,16,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(70,193,62,1) 0%,rgba(0,140,16,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(70,193,62,1) 0%,rgba(0,140,16,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(70,193,62,1) 0%,rgba(0,140,16,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(70,193,62,1) 0%,rgba(0,140,16,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46c13e', endColorstr='#008c10',GradientType=0 ); /* IE6-8 */
+
 }
 a {
     color:#78da67;
@@ -61,6 +88,16 @@ a {
 a:hover {
     text-decoration: underline;
     color:#78da67;
+}
+input {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
 
 /* GENERIC CLASSES */
@@ -187,11 +224,11 @@ section.top-bar-section {
 .item .MainCopy {
     position: absolute;
     left: 20%;
-    top: 3%;
+    top: 5%;
     width: 30%;
     padding: 2em;
     color: white;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
 }
 .MainCopy h1 {
     color: white;
@@ -210,10 +247,10 @@ section.top-bar-section {
 .recentQuoteBox {
     position: absolute;
     right: 20%;
-    top: 3%;
+    top: 14%;
     padding: 1em;
     color: white;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
     text-align: center;
 }
 .recentQuoteBox h4 {
@@ -222,7 +259,7 @@ section.top-bar-section {
 .orNewQuote {
     position: absolute;
     right: 26.5%;
-    bottom: 38%;
+    bottom: 20%;
     color: white;
     text-align: center;
 }
@@ -237,7 +274,7 @@ section.top-bar-section {
     width:100%;
     height:12em;
     margin: 1em 0;
-    border: 1px solid #eaeaea;
+    border: 1px solid #ccc;
     background-color:#F2F2F2;
     border-top-left-radius: 0.4em;
     border-top-right-radius: 0.4em;
@@ -247,6 +284,7 @@ section.top-bar-section {
     border-bottom-left-radius: 0.4em;
     border-top-right-radius: 0.4em;
     border-bottom-right-radius: 0.4em;
+    background-color: white;
 
 }
 .leftTwoRow {
@@ -283,7 +321,7 @@ a.cover-block {
     width:100%;
     height:18em;
     margin: 1em 0;
-    border: 1px solid #eaeaea;
+    border: 1px solid #ccc;
     background-color:#F2F2F2;
     border-top-left-radius: 0.4em;
     border-top-right-radius: 0.4em;
@@ -294,6 +332,7 @@ a.cover-block {
     border-top-right-radius: 0.4em;
     border-bottom-right-radius: 0.4em;
     text-align: left;
+    background-color: white;
 }
 .divThreeRow h2 {
     color: #555;
@@ -356,8 +395,8 @@ a.cover-block {
 #divYourQuotes{
     width:100%;
     margin: 0 0 2em 0;
-    border: 1px solid #000000;
-    background-color:#F2F2F2;
+    border: 1px solid #ccc;
+    background-color:white;
     border-top-left-radius: 0.4em;
     border-top-right-radius: 0.4em;
     border-bottom-left-radius: 0.4em;
@@ -373,6 +412,7 @@ a.cover-block {
     
 }
 
+<<<<<<< HEAD
 .greyDiv{
     width:100%;
     margin: 0 0 2em 0;
@@ -420,6 +460,8 @@ a.cover-block {
 
 
 
+=======
+>>>>>>> origin/master
 .content {
     padding:2em 2em;
 }
@@ -570,7 +612,6 @@ a.accountLinks:hover{
     color:#005414;
     
 }
-
 
 #links {
     padding-bottom:2.5em;

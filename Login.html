@@ -30,10 +30,6 @@
                 </div>
             </div>
         </header>  
-            
-        
-        
-        
         <!--  THIS IS WHERE THE CONTENT GOES  -->
         
         <div class="row">
@@ -49,7 +45,7 @@
                 <div class="borderBox">
                     <div class="row" id="divUser">
                         <div class="large-4 columns">
-                            <p class="home" style="padding-top:0.4em;"> Your Email</p>
+                            <p class="home"><b>Your Email</b></p>
                         </div>
                         <div class="large-8 columns">
                             <input type="text" id="txtEmailAddress"/>
@@ -58,17 +54,17 @@
                     </div>
                     <div class="row" id="divPass">
                         <div class="large-4 columns">
-                            <p class="home"> Your Password</p>
+                            <p class="home"><b>Your Password</b></p>
                         </div>
                         <div class="large-8 columns">
                             <input type="text" id="txtPassword"/>
-                            <div class="row" style="text-align:right">
-                                <a href="#">Forgotten Your Password?</a></p>
-                            </div>
+
+                                <a href="#">Forgotten Your Password?</a>
                             
                             <div class="row">
+                                <br/>
                                 <input type="checkbox"/> Keep me signed in
-                                <p class="superSmall" style="color:black"; >(Do not check  using a shared computer)</p>
+                                <p class="superSmall" style="color:black"; >Do not tick if you are using a public or shared computer.</p>
                                 <a class="btn nav" id="btnLogIn" style="float:right; margin-top:1.5em; margin-bottom:2em; width:10em;">Login</a>
                             </div>
                         </div>
@@ -110,32 +106,7 @@
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
         <div id="green-bottom-banner">
 
             <div id="links">
@@ -173,16 +144,6 @@
 
         <script>
             $(document).foundation();
-        </script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                //Variables
-                var speed = 30000;
-                $('.myContent').slick({
-                    'autoplay': true,
-                    'autoplaySpeed' : speed
-                });
-            });
         </script>
     </body>
 </html>

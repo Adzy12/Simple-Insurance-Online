@@ -269,11 +269,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu dictum velit, eget volutpat justo.</p>
             <a href="">Find out more</a>
         </div>
-        <div class="orNewQuote">
-            <a href="" class="btn">Retrieve home insurance quote</a>
-            <h2>OR</h2>
-            <a href="" class="btn">Get new quotes</a>
-        </div>
+        
     </div>
 
             </div>
@@ -326,12 +322,11 @@
 
         <div class="large-4 medium-4 small-12 columns">
             <div class="divThreeRow">
-                <div class="boxImageBackground" >
+                <div class="boxImageBackground">
                     <h2>House Insurance</h2>
                     <p >Save money by getting your house and contents insurance together.</p>
                     <a href="#" class="btn nav" id="btnGetHomeQuote">Get quote</a>
                 </div>
-                
             </div>
         </div>
         
@@ -554,10 +549,12 @@
     $(document).ready(function() {
       $("#owl-demo").owlCarousel({
 
-      navigation : true,
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem : true
+        navigation : true,
+        stopOnHover : true,
+        slideSpeed : 700,
+        autoPlay : true,
+        paginationSpeed : 500,
+        singleItem : true
 
       // "singleItem:true" is a shortcut for:
       // items : 1, 
