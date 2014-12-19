@@ -63,6 +63,38 @@ a:hover {
     color:#78da67;
 }
 
+/* GENERIC CLASSES */
+
+.center{
+ text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.padding1em {
+    padding:1em;
+}
+
+.paddingTop1 {
+    padding-top: 0.75em;   
+}
+
+.margin1em{
+    margin:1em;   
+}
+.marginTop1{
+    margin-top:3em;   
+}
+
+.bold {
+    font-weight: bold;   
+}
+
+
+
+
 /* Navigation*/
 
 /* Color for the header*/
@@ -90,7 +122,7 @@ section.top-bar-section {
 }
 
 .contain-to-grid {
-    border-bottom: 4px solid white;
+    border-bottom: 0px solid white;
 }
 
 .head.row.full {
@@ -112,7 +144,7 @@ section.top-bar-section {
     margin-right:20px;
 }
 
-#btnAccStartNewQuote{
+.btnFull{
     width:100%;
     margin: 1em 0;
 }
@@ -341,9 +373,46 @@ a.cover-block {
     
 }
 
+.greyDiv{
+    width:100%;
+    margin: 0 0 2em 0;
+    border: 1px solid #000000;
+    background-color:#F2F2F2;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-top-left-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    text-align: left;
+}
 
+.slightlyDarkerGrey {
+    background-color:#EBEBEB;
+}
 
+.greyInnerDiv{
+    padding:0.5em;
+    
+}
 
+.greyDivActive{
+    width:100%;
+    margin: 0 0 2em 0;
+    border: 1px solid #000000;
+    background-color:#D9D9D9;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-top-left-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    text-align: left;
+}
 
 
 

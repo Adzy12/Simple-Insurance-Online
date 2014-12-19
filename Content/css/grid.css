@@ -35,19 +35,21 @@
     margin-left:0;
     margin-right:0;
     height:100%;
-    
+    border: 1px solid grey;
 }
 .grid-6-9.noGutter {
     width: 66.6%; /* 700px/1080px */
     margin-left:0;
     margin-right:0;
     height:100%;
+    border: 1px solid grey;
 }
 .grid-9-9.noGutter {
     width: 100%; /* 1060px/1080px */
     margin-left:0;
     margin-right:0;
     height:100%;
+    border: 1px solid grey;
 }
 
 /* GRID NO BORDER & GUTTER */
@@ -75,13 +77,132 @@
 }
 
 
+/* QUARTER GRID SYSTEM - NO GUTTERS */
+
+.grid-1-4.noGutter {
+    width: 25.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border: 1px solid grey;
+    
+}
+.grid-2-4.noGutter {
+    width: 50.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border: 1px solid grey;
+    
+}
+.grid-3-4.noGutter {
+    width: 75.0%;
+    margin-left:0;
+    margin-right:0;
+    border: 1px solid grey;
+}
+/* No NEED FOR .gird-4-4 (9-9 already deals with this) */
 
 
+.grid-1-4.noBorder {
+    width: 25.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border:none;
+    
+}
+.grid-2-4.noBorder {
+    width: 50.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border:none;
+}
+.grid-3-4.noBorder {
+    width: 75.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border:none;
+}
 
 
+/* TENTHS GRID SYSTEM - NO GUTTERS */
 
+.grid-1-10.noGutter {
+    width: 10.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border: 1px solid grey;
+    
+}
+.grid-2-10.noGutter {
+    width: 20.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border: 1px solid grey;
+    
+}
+.grid-3-10.noGutter {
+    width: 30.0%;
+    margin-left:0;
+    margin-right:0;
+    border: 1px solid grey;
+}
 
+.grid-4-10.noGutter {
+    width: 40.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border: 1px solid grey;
+    
+}
+.grid-5-10.noGutter {
+    width: 50.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border: 1px solid grey;
+    
+}
+.grid-6-10.noGutter {
+    width: 60.0%;
+    margin-left:0;
+    margin-right:0;
+    border: 1px solid grey;
+}
 
+.grid-7-10.noGutter {
+    width: 70.0%;
+    margin-left:0;
+    margin-right:0;
+    border: 1px solid grey;
+}
+.grid-8-10.noGutter {
+    width: 80.0%;
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    border: 1px solid grey;
+    
+}
+.grid-9-10.noGutter {
+    width: 90.0%;
+    margin-left:0;
+    margin-right:0;
+    border: 1px solid grey;
+}
+
+.grid-10-10.noGutter {
+    width: 100.0%;
+    margin-left:0;
+    margin-right:0;
+    border: 1px solid grey;
+}
 
 
 
