@@ -342,6 +342,29 @@ a.cover-block {
     color: #555;
 }
 
+.divThreeRowQuotes {
+    width:100%;
+    height:18em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    background-color:transparent;
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-top-left-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    text-align: left;
+}
+.divThreeRow h2 {
+    color: #555;
+}
+
+
+
+
 .divTwoThirds {
     width:100%;
     height:10em;
@@ -692,12 +715,14 @@ table tr td {
 	text-align: center;
 	padding:1em 0.25em;
     min-width: 5em;
+    max-width: 30em;
 }
 
 table tr:first-child th:last-child {
 	-moz-border-radius-topright:3px;
 	-webkit-border-top-right-radius:3px;
 	border-top-right-radius:3px;
+    
 }
 
 
@@ -705,6 +730,7 @@ table tr:first-child th:last-child {
 
 table td {
     color:#555555;
+    
     
 	padding:18px;
 	border-top: 0px solid #ffffff;
@@ -716,10 +742,22 @@ table td {
 	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
 }
 
-divTableCell{
-        height:100%:
+.divTableCell{
+        height:100%;
         width:100%;
     
+}
+
+.blankSpace{
+    background-color: #ccc;
+    
+}
+
+#divCloseButton{
+    width:200px;
+    float:right;
+    padding-right: 25px;
+    padding-left:25px;
 }
 
 
